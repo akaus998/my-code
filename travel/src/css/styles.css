@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+/*//styles for header//*/
+.header{
+	padding:20px;
+	display:block;
+	text-align:center;
+	
+	background-image: linear-gradient(to right, black, rgb(0, 10, 10) 20%,rgb(0, 21, 60) 60%);
+	/*margin-right:-2%;*/
+	margin-left:-2%;
+	margin-top:-10px;
+	color: white;
+	width:100%;
+	font-family:'Roboto Slab' serif;
+}
+
+/*//styles for Banner image//*/
+@media only screen and (max-width: 600px) {.bannerContent{width:100%;margin-top:40%; float:left;}}
+.bannerContent{
+	width: 55%; 
+	float:left;
+	margin-left:65%;
+	margin-top:-22%;
+}
+
+.banner{
+	width:80%;
+}
+
+.staticButton{
+	background-image: linear-gradient(to right, black, rgb(0, 10, 10) 10%,rgb(0, 21, 60) 60%);
+	color:white;
+	padding: 10px 35px;
+	font-size:13px;
+	margin-top:3%;
+	
+}
+@media only screen and (max-width: 600px) {.bannerImageWidth{width:100%;margin-top:48%;margin-left:0%;}  .banner-image{width:200px;,height:100px;}}
+.bannerImageWidth{
+	width:45%;
+	float:left;
+}
+.banner-image{
+	margin-left:60%;
+	height:340px;
+	width:340px;
+}
+/*//styles for weather channels//*/
+.Canberra{
+	background-color: #0D7E88;
+	color:white;
+	float:left;
+	width:25%;
+	height:160px;
+	padding-top:30px;
+	text-align: center;
+	font-size: 25px;
+	font-family:'Roboto Slab' serif;
+
+}
+.Tokyo{
+	color:white;
+	background-color: #D09378;
+	float:left;
+	width:25%;
+	height:160px;
+	text-align: center;
+	padding-top:30px;
+	font-size: 25px;
+	font-family:'Roboto Slab' serif;
+}
+.London{
+	background-color: #405B5D;
+	float:left;
+	width:25%;
+	height:160px;
+	padding-top:30px;
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	font-family:'Roboto Slab' serif;
+}
+.Dubai{
+	background-color: #74A748;
+	float:right;
+	width:25%;
+	height:160px;
+	padding-top:30px;
+	text-align: center;
+	font-size: 25px;
+	color:white;
+	font-family:'Roboto Slab' serif;
+}
+/*//styles for header section of the weather channel//*/
+@media only screen and (max-width: 600px) {.weather-header{width:50%;margin-top:50%;}}
+.weather-header{
+	width:96.20%;
+	height:40px;
+	background-color: rgb(0,21,60);
+	color:white;
+	padding-top:15px;
+	padding-left:50px;
+	margin-top:30%;
+	font-family:'Roboto Slab' serif;
+}
+
+/*//styles for NAvigation component//*/
+.nav-width{
+	width:100%;
+	height:60px;
+	margin-top:2%;	
+}
+.nav-header{
+	float:right;
+	margin-right:10%;
+}
+
+/*//styles for horizontal scroll component//*/
+.menu-item {
+	padding: 0 10px;
+	margin: 5px 10px;
+	user-select: none;
+	cursor: pointer;
+	border: none;
+}
+.scroll-menu-arrow {
+	padding: 20px;
+	cursor: pointer;
+	color: black;
+	font-weight: bolder;
+}
+
+.scroll-image{
+	width:190px;
+	height:190px;
+	border-radius: 6px;
+}
+/*//styles for poster banner image//*/
+.container{
+		position: relative;
+		text-align: center;
+		color: white;
+	}
+.bottom-left {
+		position: absolute;
+		bottom: 14%;
+		left: 10%;
+		font-size:27px;
+		text-align: justify;
+	}
+/*//styles for form//*/
+.form-input{
+		width: 60%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+.form-button{
+		background-image: linear-gradient(to right, black, rgb(0, 10, 10) 10%,rgb(0, 21, 60) 60%);
+		color:white;
+		padding: 8px 40px;
+		font-size:16px;
+		border-radius: 5px;
+		text-align: center;
+		margin-left: 20%;
+		margin-top:1.25%;
+	}
+/*//styles for footer//*/
+.footer{
+		padding:20px;
+		display:block;
+		background-image: linear-gradient(to right, black, rgb(0, 10, 10) 20%,rgb(0, 21, 60) 60%);
+		margin-left:-2%;
+		width:100%;
+		height:190px;
+		margin-top:4%;
+		color:white;
+		font-weight:bold;
+		font-size:12px;
+		font-family: 'Roboto Slab' serif;
+}
+/*//styles for footer list//*/
+.no-bullets{
+
+		list-style-type: none;
+
+		font-size:16px;
+	}
+.list-width{
+		padding-top:10px;
+	}
+.fourth-list{
+		float:right;
+		margin-right:8%;	
+	}
+.fourth-list-width{
+		width: 100%;
+		padding-top:10px;
+		margin-left:-12%;
+	}
+.third-list{
+		float:left;
+		margin-left:8%;	
+	}
+.second-list{
+		float:left;
+		margin-left:8%;	
+
+	}
+.first-list{
+		float:left;
+		margin-left:10%;
+
+	}
+
+.first-list-width{
+		width:100%;
+		padding-top:10px;
+	}
+
+.second-list-width{
+
+		width:100%;
+		padding-top:10px;
+	}
+.third-list-width{
+		width:100%;
+		padding-top:10px;
+	}
